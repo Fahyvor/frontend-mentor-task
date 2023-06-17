@@ -7,7 +7,7 @@ const Homepage = () => {
   return (
     <div className='container-fluid p-5 home-page'>
       <div className='bg-white container text-center
-      image-text-container mx-auto my-auto p-4'>
+      image-text-container my-auto p-4'>
         <div className='bar-code-image'>
           <img src={barCodeImage} alt='bar-code' />
         </div>
