@@ -1,0 +1,28 @@
+.home-page {
+   background-color: var(--color-bg);
+   height: 100%;
+}
+
+.image-text-container {
+    border-radius: 15px;
+    width: 35%;
+}
+
+.bar-code-image {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+    .image-text-container {
+      width: 95%;
+    }
+
+    .image-text-container h3 {
+       font-size: 1.2rem;
+    }
+
+    .image-text-container p {
+       font-size: 0.9rem;
+    }
+}

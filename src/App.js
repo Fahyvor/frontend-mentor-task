@@ -1,14 +1,10 @@
 import React from 'react'
-import Footer from './components/Footer/Footer'
-import Welcome from './components/Welcome/Welcome'
+import Homepage from './components/HomePage/Homepage'
 
 
 const App = () => {
   return (
-    <div>
-      <Welcome />
-      <Footer />
-    </div>
+    <Homepage />
   )
 }
 
